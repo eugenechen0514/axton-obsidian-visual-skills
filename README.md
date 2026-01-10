@@ -161,6 +161,15 @@ Contributions are welcome! Feel free to:
 - Improve documentation
 - Submit pull requests
 
+## Acknowledgments
+
+This project builds upon these excellent open-source tools and specifications:
+
+- [Excalidraw](https://excalidraw.com/) - Hand-drawn style whiteboard
+- [Mermaid](https://mermaid.js.org/) - Diagram and chart generation
+- [JSON Canvas](https://jsoncanvas.org/) - Open file format for infinite canvas (MIT License)
+- [Obsidian](https://obsidian.md/) - Knowledge base application
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.

@@ -161,6 +161,15 @@ axton-obsidian-visual-skills/
 - 改进文档
 - 提交 Pull Request
 
+## 致谢
+
+本项目基于以下优秀的开源工具和规范构建：
+
+- [Excalidraw](https://excalidraw.com/) - 手绘风格白板
+- [Mermaid](https://mermaid.js.org/) - 图表生成工具
+- [JSON Canvas](https://jsoncanvas.org/) - 开放的无限画布文件格式（MIT 许可证）
+- [Obsidian](https://obsidian.md/) - 知识库应用
+
 ## 许可证
 
 MIT 许可证 - 详见 [LICENSE](LICENSE)。
