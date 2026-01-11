@@ -1,0 +1,48 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "axton-obsidian-visual-skills",
+  "version": "1.1.0",
+  "description": "Visual Skills Pack for Obsidian: generate Canvas, Excalidraw, and Mermaid diagrams from text with Claude Code.",
+  "owner": {
+    "name": "Axton Liu",
+    "email": "axton@axtonliu.ai"
+  },
+  "plugins": [
+    {
+      "name": "excalidraw-diagram",
+      "description": "Generate hand-drawn style Excalidraw diagrams for Obsidian",
+      "version": "1.1.0",
+      "author": {
+        "name": "Axton Liu",
+        "email": "axton@axtonliu.ai"
+      },
+      "source": "./skills/excalidraw-diagram",
+      "category": "productivity",
+      "homepage": "https://github.com/eugenechen0514/axton-obsidian-visual-skills"
+    },
+    {
+      "name": "mermaid-visualizer",
+      "description": "Transform text into professional Mermaid diagrams with syntax error prevention",
+      "version": "1.1.0",
+      "author": {
+        "name": "Axton Liu",
+        "email": "axton@axtonliu.ai"
+      },
+      "source": "./skills/mermaid-visualizer",
+      "category": "productivity",
+      "homepage": "https://github.com/eugenechen0514/axton-obsidian-visual-skills"
+    },
+    {
+      "name": "obsidian-canvas-creator",
+      "description": "Create Obsidian Canvas files with MindMap and freeform layouts",
+      "version": "1.1.0",
+      "author": {
+        "name": "Axton Liu",
+        "email": "axton@axtonliu.ai"
+      },
+      "source": "./skills/obsidian-canvas-creator",
+      "category": "productivity",
+      "homepage": "https://github.com/eugenechen0514/axton-obsidian-visual-skills"
+    }
+  ]
+}
