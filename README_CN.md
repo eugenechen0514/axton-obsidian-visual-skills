@@ -148,19 +148,22 @@ cp -r axton-obsidian-visual-skills/obsidian-canvas-creator ~/.claude/skills/
 
 ```
 axton-obsidian-visual-skills/
-├── excalidraw-diagram/
-│   ├── SKILL.md              # 主 skill 定义
-│   ├── assets/               # 示例输出
-│   └── references/           # Excalidraw JSON schema
-├── mermaid-visualizer/
-│   ├── SKILL.md
-│   └── references/           # 语法规则与错误预防
-├── obsidian-canvas-creator/
-│   ├── SKILL.md
-│   ├── assets/               # 模板 canvas 文件
-│   └── references/           # Canvas 规范与布局算法
+├── .claude-plugin/
+│   └── plugin.json           # 插件元数据（必需）
+├── skills/
+│   ├── excalidraw-diagram/
+│   │   ├── SKILL.md          # 主 skill 定义
+│   │   └── references/       # Excalidraw JSON schema
+│   ├── mermaid-visualizer/
+│   │   ├── SKILL.md
+│   │   └── references/       # 语法规则与错误预防
+│   └── obsidian-canvas-creator/
+│       ├── SKILL.md
+│       ├── assets/           # 模板 canvas 文件
+│       └── references/       # Canvas 规范与布局算法
 ├── README.md
 ├── README_CN.md
+├── CHANGELOG.md
 └── LICENSE
 ```
 

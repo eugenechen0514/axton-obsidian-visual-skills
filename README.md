@@ -148,19 +148,22 @@ Once installed, Claude Code will automatically use these skills when you ask for
 
 ```
 axton-obsidian-visual-skills/
-├── excalidraw-diagram/
-│   ├── SKILL.md              # Main skill definition
-│   ├── assets/               # Example outputs
-│   └── references/           # Excalidraw JSON schema
-├── mermaid-visualizer/
-│   ├── SKILL.md
-│   └── references/           # Syntax rules & error prevention
-├── obsidian-canvas-creator/
-│   ├── SKILL.md
-│   ├── assets/               # Template canvas files
-│   └── references/           # Canvas spec & layout algorithms
+├── .claude-plugin/
+│   └── plugin.json           # Plugin metadata (required)
+├── skills/
+│   ├── excalidraw-diagram/
+│   │   ├── SKILL.md          # Main skill definition
+│   │   └── references/       # Excalidraw JSON schema
+│   ├── mermaid-visualizer/
+│   │   ├── SKILL.md
+│   │   └── references/       # Syntax rules & error prevention
+│   └── obsidian-canvas-creator/
+│       ├── SKILL.md
+│       ├── assets/           # Template canvas files
+│       └── references/       # Canvas spec & layout algorithms
 ├── README.md
 ├── README_CN.md
+├── CHANGELOG.md
 └── LICENSE
 ```
 
