@@ -95,13 +95,25 @@ Skills 是 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) 的提�
 - [Obsidian](https://obsidian.md/) 及相关插件：
   - [Excalidraw 插件](https://github.com/zsviczian/obsidian-excalidraw-plugin)（用于 Excalidraw skill）
 
-### 安装 Skills
+### 方式一：Marketplace 安装（推荐）
+
+```bash
+# 添加 marketplace
+claude plugin marketplace add https://github.com/eugenechen0514/axton-obsidian-visual-skills
+
+# 安装所有 skills
+claude plugin install excalidraw-diagram
+claude plugin install mermaid-visualizer
+claude plugin install obsidian-canvas-creator
+```
+
+### 方式二：手动安装
 
 将 skill 文件夹复制到 Claude Code 的 skills 目录：
 
 ```bash
 # 克隆仓库
-git clone https://github.com/axtonliu/axton-obsidian-visual-skills.git
+git clone https://github.com/eugenechen0514/axton-obsidian-visual-skills.git
 
 # 复制 skills 到 Claude Code 目录
 cp -r axton-obsidian-visual-skills/excalidraw-diagram ~/.claude/skills/

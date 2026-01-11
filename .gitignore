@@ -10,6 +10,9 @@
 *.swp
 *.swo
 
+# Claude Code local settings
+.claude/
+
 # Logs
 *.log
 

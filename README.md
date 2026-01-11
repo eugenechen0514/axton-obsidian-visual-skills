@@ -95,13 +95,25 @@ Create interactive Obsidian Canvas (`.canvas`) files with MindMap or freeform la
 - [Obsidian](https://obsidian.md/) with relevant plugins:
   - [Excalidraw plugin](https://github.com/zsviczian/obsidian-excalidraw-plugin) (for Excalidraw skill)
 
-### Install Skills
+### Option 1: Marketplace Install (Recommended)
+
+```bash
+# Add the marketplace
+claude plugin marketplace add https://github.com/eugenechen0514/axton-obsidian-visual-skills
+
+# Install all skills
+claude plugin install excalidraw-diagram
+claude plugin install mermaid-visualizer
+claude plugin install obsidian-canvas-creator
+```
+
+### Option 2: Manual Install
 
 Copy the skill folders to your Claude Code skills directory:
 
 ```bash
 # Clone the repository
-git clone https://github.com/axtonliu/axton-obsidian-visual-skills.git
+git clone https://github.com/eugenechen0514/axton-obsidian-visual-skills.git
 
 # Copy skills to Claude Code directory
 cp -r axton-obsidian-visual-skills/excalidraw-diagram ~/.claude/skills/
